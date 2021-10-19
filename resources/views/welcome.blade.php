@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Caffe Garage 81
+                    Caffe Garage 81 Cimahi
                 </div>
 
                 <div class="links">
