@@ -10,21 +10,6 @@
     <meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
     <meta name="author" content="freehtml5.co" />
 
-    <!-- 
-	//////////////////////////////////////////////////////
-
-	FREE HTML5 TEMPLATE 
-	DESIGNED & DEVELOPED by FreeHTML5.co
-		
-	Website: 		
-	Email: 			info@freehtml5.co
-	Twitter: 		http://twitter.com/fh5co
-	Facebook: 		https://www.facebook.com/fh5co
-
-	//////////////////////////////////////////////////////
-	 -->
-
-    <!-- Facebook and Twitter integration -->
     <meta property="og:title" content="" />
     <meta property="og:image" content="" />
     <meta property="og:url" content="" />
@@ -69,12 +54,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 text-center logo-wrap">
-                        <div id="fh5co-logo"><a href="index.html">Tasty<span>.</span></a></div>
+                        <div id="fh5co-logo"><a href="index.html">Garage 81<span></span></a></div>
                     </div>
                     <div class="col-xs-12 text-center menu-1 menu-wrap">
                         <ul>
-                            <li class="active"><a href="index.html">Home</a></li>
-                            <li><a href="menu.html">Menu</a></li>
+                            <li class="active"><a href="{{route('home')}}">Home</a></li>
+                            <li><a href="menu">Menu</a></li>
                             <li class="has-dropdown">
                                 <a href="gallery.html">Gallery</a>
                                 <ul class="dropdown">
@@ -94,15 +79,15 @@
             <!-- </div> -->
         </nav>
 
-        <header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image: url(images/hero_1.jpeg);" data-stellar-background-ratio="0.5">
+        <header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image: url(imaro_1.jpeg);" data-stellar-background-ratio="1">
             <div class="overlay"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <div class="display-t js-fullheight">
                             <div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
-                                <h1>Garage Cafe 81 <em>&amp;</em> Restaurant <em>in</em> Cimahi</h1>
-                                <h2>Brought to you by <a href="http://freehtml5.co/" target="_blank">freehtml5.co</a></h2>
+                                <h1>Garage Cafe 88 <em>&amp;</em> Restaurant <em>From</em> Cimahi</h1>
+                                <h2>Ini meruapakan <a href="Link garage" target="_blank">Garage 81</a></h2>
                             </div>
                         </div>
                     </div>
@@ -114,7 +99,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-md-pull-4 img-wrap animate-box" data-animate-effect="fadeInLeft">
-                        <img src="images/hero_1.jpeg" alt="Free Restaurant Bootstrap Website Template by FreeHTML5.co">
+                        <img src="images/garage.jpg" alt="Free Restaurant Bootstrap Website Template by FreeHTML5.co" height="600" width="800">
                     </div>
                     <div class="col-md-5 col-md-push-1 animate-box">
                         <div class="section-heading">
@@ -144,34 +129,34 @@
 
                     <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-item-wrap animate-box">
                         <div class="fh5co-item">
-                            <img src="images/gallery_9.jpeg" class="img-responsive" alt="Free Restaurant Bootstrap Website Template by FreeHTML5.co">
-                            <h3>Bake Potato Pizza</h3>
-                            <span class="fh5co-price">$20<sup>.50</sup></span>
+                            <a href="#"> <img src="images/1.jpg" class="img-responsive" alt="co"></a>
+                            <a href="#"> <h3>Bake Potato Pizza </a></h3>
+                            <span class="fh5co-price">Rp. 25.000</span>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nihil cupiditate ut vero alias quaerat inventore molestias vel suscipit explicabo.</p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-item-wrap animate-box">
                         <div class="fh5co-item margin_top">
-                            <img src="images/gallery_8.jpeg" class="img-responsive" alt="Free Restaurant Bootstrap Website Template by FreeHTML5.co">
-                            <h3>Salted Fried Chicken</h3>
-                            <span class="fh5co-price">$19<sup>.00</sup></span>
+                            <a href="#"> <img src="images/2.jpg" class="img-responsive" alt="co"> </a> 
+                            <a href="#"> <h3>Salted Fried Chicken </a></h3>
+                            <span class="fh5co-price">Rp. 25.000</span>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nihil cupiditate ut vero alias quaerat inventore molestias vel suscipit explicabo.</p>
                         </div>
                     </div>
                     <div class="clearfix visible-sm-block visible-xs-block"></div>
                     <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-item-wrap animate-box">
                         <div class="fh5co-item">
-                            <img src="images/gallery_7.jpeg" class="img-responsive" alt="Free Restaurant Bootstrap Website Template by FreeHTML5.co">
-                            <h3>Italian Sauce Mushroom</h3>
-                            <span class="fh5co-price">$17<sup>.99</sup></span>
+                            <a href="#"> <img src="images/3.jpg" class="img-responsive" alt="co" href="www.facebook.com"></a>
+                            <a href="#"> <h3>Italian Sauce Mushroom </a></h3>
+                            <span class="fh5co-price">Rp. 25.000</span>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nihil cupiditate ut vero alias quaerat inventore molestias vel suscipit explicabo.</p>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-item-wrap animate-box">
                         <div class="fh5co-item margin_top">
-                            <img src="images/gallery_6.jpeg" class="img-responsive" alt="Free Restaurant Bootstrap Website Template by FreeHTML5.co">
-                            <h3>Fried Potato w/ Garlic</h3>
-                            <span class="fh5co-price">$22<sup>.50</sup></span>
+                            <a href="#"> <img src="images/4.jpg" class="img-responsive" alt="co"> </a>
+                            <a href="#"> <h3>Fried Potato w/ Garlic </a></h3>
+                            <span class="fh5co-price">Rp. 25.000</span>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nihil cupiditate ut vero alias quaerat inventore molestias vel suscipit explicabo.</p>
                         </div>
                     </div>

@@ -13,14 +13,21 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+/* Home */
 Route::get('/', function () {
-    return view('home', [
+    return view('index', [
         "tittle"=> 'Home'
     ]);
 });
 
-Route::get('/landing', function () {
-    return view('index', [
-        "tittle"=> 'Index'
+/* Menu */
+Route::get('/Menu', function () {
+    return view('menu', [
+        "tittle"=> 'Menu'
     ]);
 });
+
+/* Menu */
+Route::get('/home','HomeController@index')->name('home');
+  
+
