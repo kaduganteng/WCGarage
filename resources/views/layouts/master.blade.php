@@ -12,7 +12,7 @@
   <!-- Theme style -->
   <link rel="stylesheet" href="adminlte/css/adminlte.min.css">
 </head>
-
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
 
 <div class="preloader flex-column justify-content-center align-items-center">
   <img class="animation__shake" src="adminlte/img/logo.jfif" alt="AdminLTELogo" height="60" width="60">
@@ -35,7 +35,13 @@
       <li class="nav-item d-none d-sm-inline-block">
         <a href="#" class="nav-link">Contact</a>
       </li>
+
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="#" class="nav-link">Logout</a>
+      </li>
     </ul>
+
+   
 
    
 
