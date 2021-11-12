@@ -85,8 +85,8 @@
         <div class="container">
             <div class="row row-pb-md">
                 <div class="col-md-4 fh5co-widget">
-                    <h4>Tasty</h4>
-                    <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+                    <h4>Garage 81</h4>
+                    <p>Cafet .</p>
                 </div>
                 <div class="col-md-2 col-md-push-1 fh5co-widget">
                     <h4>Links</h4>

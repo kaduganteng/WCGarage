@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth
+use Illuminate\Support\Facades\Auth;
+
+
 class LoginController extends Controller
 {
     public function index()
@@ -22,13 +24,15 @@ class LoginController extends Controller
         return view('admin.reset');
     }
 
-    public function authenticate(Request &request)
+    public function authenticate(Request $request)
     {
-&request->Validate([
-    'email'=> 'email'=>,'required',
+    $request->validate([
+    'email'=> 'required|email.dns',
     'password'=> 'required'
+    
 ]);
 
+dd('berhasil login');
 
     }
     

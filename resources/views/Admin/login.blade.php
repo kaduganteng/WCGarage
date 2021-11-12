@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -27,7 +27,7 @@
 
       <form action="/login" method="post">
         <div class="input-group mb-3">
-          <input type="email" name="email" class="form-control" id="email" placeholder="name@example.com">
+          <input type="email" name="email" class="form-control @error('email') is-invalid  @enderror" id="email" placeholder="name@example.com">
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-envelope"></span>

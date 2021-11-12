@@ -28,7 +28,7 @@ Route::get('/konten','KontenController@index')->name('konten');
 Route::get('/data','DataController@index')->name('datastatis');
 
 route::get('/login','LoginController@index')->name('login');
-route::get('/login','LoginController@autenticate')->name('login');
+route::get('/login','LoginController@authenticate')->name('login');
 
 route::get('/forgot','LoginController@forgot')->name('forgot');
 route::get('/reset','LoginController@reset')->name('reset');
