@@ -126,9 +126,22 @@
               <li class="nav-item">
                 <a href="{{route('admin')}}" style="color:rgb(255, 255, 255);" class="nav-link {{(Request::is('admin/homeadmin') || Request::is('admin/homeadmin/*') ? 'active' : '')}}">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Data Keseluruhan</p>
+                  <p>Portal Garage </p>
                 </a>
               </li>
+              <li class="nav-item">
+                <a href="{{route('admin')}}" style="color:rgb(255, 255, 255);" class="nav-link {{(Request::is('admin/homeadmin') || Request::is('admin/homeadmin/*') ? 'active' : '')}}">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Caffe Garage 81</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="{{route('admin')}}" style="color:rgb(255, 255, 255);" class="nav-link {{(Request::is('admin/homeadmin') || Request::is('admin/homeadmin/*') ? 'active' : '')}}">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Frendchaise</p>
+                </a>
+              </li>
+
 
             </ul>
           </li>
@@ -137,16 +150,16 @@
                 
               <i class="nav-icon fas fa-tree"></i>
               <p>
-               Konten Promo
+               Konten Garage 81
               </p>
             </a>
           </li>
-          <li class="nav-header">DAFTAR MAKANAN</li>
+          <li class="nav-header">DAFTAR MENU</li>
           <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-edit"></i>
               <p>
-                Menu Caffe
+                Menu Penjualan
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
@@ -154,25 +167,25 @@
               <li class="nav-item">
                 <a href="../forms/general.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Makanan</p>
+                  <p>Caffe 81 Jalan Bali</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="../forms/advanced.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Minuman</p>
+                  <p>Caffe 81 Cimahi</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="../forms/editors.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Cemilan</p>
+                  <p>Frenchise 1</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="../forms/validation.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Kopi</p>
+                  <p>Frenchise 2</p>
                 </a>
               </li>
             </ul>
