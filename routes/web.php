@@ -26,7 +26,10 @@ Route::get('/', 'LandingController@index')-> name('landing');
 Route::get('/admin','HomeController@index')->name('admin');
 Route::get('/konten','KontenController@index')->name('konten');
 Route::get('/data','DataController@index')->name('datastatis');
+
 route::get('/login','LoginController@index')->name('login');
+route::post('/login','LoginController@authenticate')->name('auth');
+
 route::get('/forgot','LoginController@forgot')->name('forgot');
 route::get('/reset','LoginController@reset')->name('reset');
 route::get('/register','RegisterController@index')->name('register');
@@ -35,3 +38,7 @@ route::get('/register','RegisterController@index')->name('register');
 
   
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
